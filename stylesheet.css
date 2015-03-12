@@ -1,0 +1,22 @@
+html{
+  background-color: green;
+  font-color: white;
+ }
+header {
+   display: inline-block;
+   Float: right;
+   padding: 5px;
+}
+#col_1{
+  display: inline block;
+  margin_left: 50px;
+  padding: 10px;
+}
+h1{
+  text-align: center;
+}
+img{
+  margin-left: auto;
+  magin_right: auto;
+  display: block;
+}
