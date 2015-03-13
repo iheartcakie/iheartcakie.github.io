@@ -18,7 +18,10 @@ $(document).ready(function(){
       click_count = 0;
       click_2 = $(this).find('p').text();
       $(this).find('p').addClass('clicked');
-      if(click_1 != click_2){ //if not the same then disappear
+      if(click_1 == click_2){
+        $('.clicked').css('color', 'blue').removeClass('clicked');
+      }
+      else{//if not the same then disappear
          setTimeout(function(){$('.clicked').css('opacity', '0').removeClass('clicked')}, 1000);
       };
     };
