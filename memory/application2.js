@@ -7,18 +7,18 @@ $(document).ready(function(){
     $('#card_holder').append('<div class="card"><p>'+card_array[i]+'</p></div>');
   };
   $('.card').click(function(){
-    if(click_count == 0){
+    if(click_count == 0){ //When the person clicks on the first card
   	$(this).find('p').css('opacity', 1);
     $(this).find('p').addClass('clicked');  
       click_count = 1;
       click_1 = $(this).find('p').text();
     }
-    else{	
+    else{	// when the person clicks on the second card
       $(this).find('p').css('opacity', 1);
       click_count = 0;
       click_2 = $(this).find('p').text();
       $(this).find('p').addClass('clicked');
-      if(click_1 != click_2){
+      if(click_1 != click_2){ //if not the same then disappear
          setTimeout(function(){$('.clicked').css('opacity', '0').removeClass('clicked')}, 1000);
       }
     };
