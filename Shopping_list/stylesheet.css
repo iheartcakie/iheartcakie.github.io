@@ -14,8 +14,7 @@ nav{
   margin-right: 15px;
   margin-bottom: 15px;
   position: absolute;
-    left: auto;
-    right: auto;
+    left: 500px;
 }
 table, td, th {
     border: 1px solid black;
