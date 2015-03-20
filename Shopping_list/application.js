@@ -51,7 +51,10 @@ $(document).ready(function(){
 $('#enter').on('click',function(){
 var item = $('select option:selected').val();
    $('ul').append('<li>'+item+"</li>");
- });
+   if(item== 'milk'){
+   $('#pic').append("<img src='https://cloud.githubusercontent.com/assets/11163791/6759732/b1cb744a-cf18-11e4-909c-81b2570f3445.png'>");
+   }
+   });
  $('#empty').on('click',function(){
 var item = $('input').val();
 $('ul').empty();
