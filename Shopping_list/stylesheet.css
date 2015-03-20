@@ -5,6 +5,7 @@ nav{
 }
 #shopping_list{
  display: inline-block;
+  text-align: center;
   width: 1000px;
   height: 150px;
   border: 2px solid;
