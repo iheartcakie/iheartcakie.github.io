@@ -1,10 +1,10 @@
-$(document).ready(function(){
+//$(document).ready(function(){
 //  var Click_count= 0;
 //    $('#card_holder').append('<div class="Shopping_list"><input>
-function disable() {
-    document.getElementById("mySelect").disabled=true;
+//function disable() {
+  //  document.getElementById("mySelect").disabled=true;
 }
-function enable() {
+//function enable() {
     document.getElementById("mySelect").disabled=false;
 }
 </script>
@@ -46,3 +46,4 @@ function enable() {
     };
  });
 });
+ 
