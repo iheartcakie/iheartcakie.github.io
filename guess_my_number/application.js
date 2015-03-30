@@ -8,7 +8,10 @@ $(document).ready(function(){
      //and compare this guess to the random number that the computer picked
     //if the user guessed the correct number...
     if (compGuess === guess){
-      
+    }
+    if (compGuess > guess){
+      }
+    if (compGuess < guess){
     }
       //what happens if the guess is correct?
       
@@ -19,6 +22,5 @@ $(document).ready(function(){
     //otherwise, the user guessed too low...
     
       //update the 'feedback' paragraph to tell them to guess higher
-    
   });
 });
