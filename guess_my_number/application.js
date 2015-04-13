@@ -10,10 +10,10 @@ $(document).ready(function(){
     if (compGuess === guess){
       alert("You have won!");
     }
-    if (compGuess > guess){
+    if (compGuess < guess){
       alert("Guess lower")
       }
-    if (compGuess < guess){
+    if (compGuess > guess){
       alert("Guess higher")
     }
   });
