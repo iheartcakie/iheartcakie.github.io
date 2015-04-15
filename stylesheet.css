@@ -9,7 +9,7 @@ header {
 }
 #col_1{
   display: inline block;
-  margin_left: 50px;
+  margin-left: 50px;
   padding: 10px;
 }
 h1{
@@ -17,6 +17,7 @@ h1{
 }
 img{
   margin-left: auto;
-  magin_right: auto;
+  margin-right: auto;
   display: block;
+  height: 100px;
 }
