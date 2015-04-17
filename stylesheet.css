@@ -13,6 +13,7 @@ header {
 }
 h1{
   text-align: center;
+  display: block;
 }
 img{
   margin-left: auto;
@@ -22,7 +23,9 @@ img{
 }
 #col_1 p{
   float: left;
+  display: block;
 }
 #pencil{
   float: left;
+  display: block;
 }
