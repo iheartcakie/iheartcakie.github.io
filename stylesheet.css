@@ -20,6 +20,6 @@ img{
   display: block;
   height: 250px;
 }
-#col_1 p{
+#col_1 p, h1{
   float: left;
 }
