@@ -11,4 +11,4 @@ for i in range(10000):
   if wins>=2
     total+=1
 winning= (total/(float(10000))
-print "your chance in winning is %" & chance
+print "your chance in winning is %" chance
