@@ -1,4 +1,4 @@
-from gipigo import
+from gopigo import *
 import time
 import math
 
