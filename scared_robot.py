@@ -24,13 +24,10 @@ def turn_left():
   left()
   time.sleep(2)
 
-
-move_forward(4)
-turn_right()
-move_forward(3)
-turn_right()
-move_forward(2)
-turn_left()
-move_forward(1)
-turn_left()
-move_forward(3)
+move_forward (30)
+if us_dis(15) < 30:
+  set_speed(120)
+  turn_right()
+  turn_right()
+  move_foward()
+  
