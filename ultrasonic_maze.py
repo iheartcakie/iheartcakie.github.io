@@ -27,5 +27,12 @@ servo(0)= left
 servo(180)= right
 if us_dis(15) < 30:
   move_forward()
-  
 
+servo(90)
+while 1 = 1:
+  while us_dis(15) > 15:
+  fwd()
+  stop()
+  servo(0)
+else servo
+  
