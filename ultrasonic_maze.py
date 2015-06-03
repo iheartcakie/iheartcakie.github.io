@@ -29,10 +29,19 @@ if us_dis(15) < 30:
   move_forward()
 
 servo(90)
-while 1 = 1:
+while 1 == 1:
   while us_dis(15) > 15:
-  fwd()
+    fwd()
   stop()
   servo(0)
-else servo
+  if us_dis(15) > 10:
+    fwd()
+  stop()
+  servo(180)
+  if us_dis(15) >10:
+    fwd()
+  stop
+  servo (0)
+  
+  
   
