@@ -33,6 +33,7 @@ while 1 == 1:
   while us_dis(15) > 15:
     fwd()
   stop()
+  time.sleep(1)
   servo(0)
   if us_dis(15) > 10:
     fwd()
@@ -41,6 +42,7 @@ while 1 == 1:
   if us_dis(15) >10:
     fwd()
   stop
+  time.sleep(1)
   servo (0)
   
   
