@@ -23,10 +23,11 @@ def turn_left():
   time.sleep(.1)
   left()
   time.sleep(2)
-servo(0)= left
-servo(180)= right
+servo(0)
 if us_dis(15) < 30:
-  move_forward()
+  servo(180)
+  if us_dis(15) < 30:
+  
 
 servo(90)
 while 1 == 1:
@@ -35,15 +36,17 @@ while 1 == 1:
   stop()
   time.sleep(1)
   servo(0)
+  time.sleep(2)
   if us_dis(15) > 10:
-    fwd()
+    turn_left()
   stop()
+  time.sleep(1)
   servo(180)
+  time.sleep(2)
   if us_dis(15) >10:
-    fwd()
-  stop
+    turn_right()
+  stop()
   time.sleep(1)
   servo (0)
-  
-  
+  time.sleep(2)
   
