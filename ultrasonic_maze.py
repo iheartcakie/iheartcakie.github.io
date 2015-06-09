@@ -26,24 +26,24 @@ def turn_left():
 servo(0)
 if us_dis(15) < 30:
   servo(180)
-  if us_dis(15) < 30:
+  if us_dist(15) < 30:
   
 
 servo(90)
 while 1 == 1:
-  while us_dis(15) > 15:
+  while us_dist(15) > 15:
     fwd()
   stop()
   time.sleep(1)
   servo(0)
   time.sleep(2)
-  if us_dis(15) > 10:
+  if us_dist(15) > 10:
     turn_left()
   stop()
   time.sleep(1)
   servo(180)
   time.sleep(2)
-  if us_dis(15) >10:
+  if us_dist(15) >10:
     turn_right()
   stop()
   time.sleep(1)
